@@ -1,0 +1,46 @@
+.dashboard-container{
+    background-image: linear-gradient(black,grey,black);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dashboard-heading {
+    color: #6366f1;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+}
+
+.map-item{
+    height: 150px;
+    width: 200px;
+}
+
+  @media screen and (max-width: 767px) {
+    .dashboard-heading {
+      font-size: 25px;
+      color: #6366f1;
+      font-family: 'Roboto';
+      font-weight: 700;
+    }
+  
+  }
+  
